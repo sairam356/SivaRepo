@@ -1,0 +1,89 @@
+Agenda :
+
+Core java 
+
+oops prrinciples , collection framework , etc
+
+
+
+
+java1.8 features -->tomorrow
+
+
+
+Eclipse
+
+Java1.8
+
+java 11
+
+
+Strucutre  of java program :
+  package <pcakage-name>  covnetion should reverse of domain : com.facebook.util
+  import java.lang.*;
+  class <class-Name> {  covnetionn --> Firstleter captial  another after cmael class
+   variables names -- camel Case 
+
+     <className>(){
+
+
+     }
+
+    <className>( paramter1 ,paramter2){
+   
+
+   }
+
+
+    in class we can write methods ,static blocks, predinedmethod example main method , declare the variables , intilaze vriables 
+   constructor , paramterised constructor 
+
+    new it is keyword in java , it is used to create object and allocate memory .
+   
+     what is use of cosntrcutor ?
+        cosntrutor will call automatically that means when we an create object it self it will call .
+
+    
+    <Access_SPecifier> <reutrnType> <methodName>(){ //method declartion   //method Name  cmaelCase 
+
+
+      }
+  for every method decleartion  there will be atleat one method calling 
+ma in method
+    <class-Name> variable(referencevaraible or OBject) = new <class-name>(1,2);
+       
+   vatiable.<methodName>();/calling a method
+  }
+
+
+
+
+
+
+
+Access Speciifers
+
+public -> it access with in the  class , with in  package and outpackage
+private -> only to paticualr class
+Default ->it acess with in the calss with in the package
+ protected-->  it access to with in the class with in the package and subclass of outside package
+
+
+
+we dicussed about 
+class , object ,encpaulation,method class structure , cosntructor , pojo class ,paramterconstructor , pacskage convetion ,access specifier
+
+
+
+
+Tomorrow :
+ inheretence , abstract, interface , static block,static method , collection framework .
+
+
+
+
+
+
+
+
+

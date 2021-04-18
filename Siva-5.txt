@@ -1,0 +1,36 @@
+Arrays
+======
+
+homogenous elements 
+index --order 
+fixed size
+int a[10] ={1,2,3};
+a[0]  =1
+a[1]=2
+
+a[11]=
+
+1 2 2
+
+3  4 2
+2 -dimentional array  ----------------> need to prepare  from your side for  interview program .
+programs 
+
+for(int i = 0;i<10;i++){
+   
+for(int j =0;j<10;J){
+
+}
+
+}
+
+Collection Framework
+====================
+Hetergenous Elements
+Objects
+not fixed size  dynamic memory allocation.
+predefined methods are aavlaiable 
+for these date types int --Integer
+Integer i = new Integer(1);
+
+

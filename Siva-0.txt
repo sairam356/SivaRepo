@@ -1,0 +1,23 @@
+java 1.8, spring core ,spring mvc, spring boot , spring rest services , spring cloud ,spring microservices (eruerka server , dyanmic routing APi gateway , distrubted tracing logging(zipkin , elK stack ), deployment in colud (AWS)(credits)
+
+
+##############################################################################################################
+H2 databse 
+Payment request --microserivces
+Settlemet Microservices
+APi gateway application RestTemaplte or RestCLient or Spring Fiegn CLient 
+Eurerka server
+circuit breaker(hystrix)
+zipikn,sleuth
+logging(centrailized logging ,elstack,logstash,kibana)(ELK)
+
+#####################################################################################################################
+Webservices
+SOap (XML) ,restwebservices(mutiple media type) json (post get put delete) ui oranother server
+
+API
+   SSMEDIA  meditor(9090)
+   repots 9191
+   payemnt 9192
+
+########################################################################################################################

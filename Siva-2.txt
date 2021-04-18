@@ -1,0 +1,138 @@
+
+Agenda 
+
+
+ inheretence , polymorphism ,abstract, interface , static block,static method , collection framework .
+
+
+
+
+INheritence:
+-----------
+
+  class <class-Name>{ //parent class
+
+
+ }
+
+ class <class-Name>{ //child class
+
+
+
+}
+
+
+extends 
+
+class  Shape {
+ private  void tyoeOFmaterial(){
+
+  }
+
+
+}
+
+class Box extends Shape  {
+
+ void getSize(){
+
+ }
+  
+ Box b = new Box();
+  b.typeOFmaterial();
+  b.getSize();
+
+
+}
+
+can we  extends  multiple  class at  a time 
+
+
+
+
+project 
+
+
+
+
+pages login, dasbaord , 
+
+super it is keyword can used only when  deal inheritence 
+##############################################################################################################################################
+
+Polymorphism :
+poly means morphism 
+
+ whether a class or varaible or method orobject exist in more than form then we can say it polymorphism 
+
+in java  overloading 
+  overriding 
+
+
+overloading
+  when two or more method having same methodName with differencent method signature , reutrn may or maybe same 
+ 
+then we can say those methods are participate in overloading.
+
+method singature atleast with number of paramters, order , type 
+
+Example:
+
+   public void add(int a, int b){
+
+
+  }
+
+ public void add(float a, float b){
+
+
+  }
+
+public void add(flaot a , float b , flaot c){
+
+
+}
+
+public void add(float a , int b){
+
+
+}
+
+public void aff(int a, float b){
+
+
+}
+
+
+Overiding :
+  when two or more method same method name and and method signature method same // reutrn type  same or not --checkl
+
+alogn with there should pariticpate in inhereitence . then we can say those are methods are OVeriding methods 
+
+
+
+class A {
+
+  void m1(int a ){
+sysout("parent  class");
+ }
+
+
+}
+
+class B  extends A{
+
+  void m1(int a){
+  sysout("child class");
+
+  }
+
+ B  b = new B();
+
+  b.m1();
+}
+   overiding methods  
+
+
+
+

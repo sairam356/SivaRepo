@@ -1,0 +1,63 @@
+Interface Concept in java 8
+
+
+ interface  A{
+       
+    abstract method declartion
+    public void m1();//abstract
+
+    we can write static methhod
+ 
+   public static String getName(){
+
+
+     return "My Name is Chatinya ";
+   }
+
+
+   default String getMyPhoneNUmber(){
+
+  
+   }
+
+
+}
+
+ interface C extends A{
+   public void m3();
+
+ }
+
+ For interface we cannot create  object 
+
+class B implements C{
+  B(int a);
+public void m1(){
+
+
+}
+
+public void m3(){
+
+
+}
+
+   A a1 = new B(1);
+   a1.m1();
+
+
+}
+
+
+Interface variables are static and final by default in Java, Why?
+Interface variables are static because java interfaces cannot be instantiated on their own. The value of the variable must be assigned in a static context in which no instance exists.
+The final modifier ensures the value assigned to the interface variable is a true constant that cannot be re-assigned.
+========================
+FunctionInterface
+
+
+
+ If  interface contaiins only one abstract method , any no  of static methods and default method
+
+then it is called fucntionIterface.
+
