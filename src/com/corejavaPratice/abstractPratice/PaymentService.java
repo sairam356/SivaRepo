@@ -16,6 +16,7 @@ public abstract class PaymentService {
 
 	public PaymentService(String bankInfo) {
 		this.bankInfo = bankInfo;
+		System.out.println("Test");
 	}
 
 	public abstract List<String> getPaymentIds();
